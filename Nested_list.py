@@ -33,7 +33,6 @@ if __name__ == '__main__':
     # name = input("Dame el nombre")
     # score = float(input("Dime la calificacion"))
     # lista.append([name, score])
-    '''
     lista_ordenada = sorted(lista, key=lambda student: student[1])
     min_note = min(lista_ordenada, key=lambda student: student[1])[1]
     lista_filtrada = list(filter(
@@ -44,9 +43,5 @@ if __name__ == '__main__':
     lista_final = sorted(lista_filtrada_ultima)
     for participante in lista_final:
         print(participante[0])
-    '''
-    min_note = min(lista, key=lambda student: student[1])[1]
+    
 
-    lista_filtrada = [student for student in lista if student[1]
-                      > min_note]
-    print(lista_filtrada)
