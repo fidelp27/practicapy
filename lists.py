@@ -1,3 +1,18 @@
+'''
+Consider a list (list = []). You can perform the following commands:
+
+insert i e: Insert integer e at position i.
+print: Print the list.
+remove e: Delete the first occurrence of integer .
+append e: Insert integer e at the end of the list.
+sort: Sort the list.
+pop: Pop the last element from the list.
+reverse: Reverse the list.
+
+Initialize your list and read in the value of  followed by  lines of commands where each command will 
+be of the  types listed above. Iterate through each command in order and perform the corresponding operation on your list.
+'''
+
 if __name__ == '__main__':
     N = int(input())
     lst = []
@@ -50,7 +65,7 @@ nombre almacenado en la variable "func" y los argumentos convertidos en enteros.
         9.2.1) objeto: es el objeto en el cual se quiere acceder.
         9.2.2) nombre_método: es un string con el nombre del método o atributo que se quiere obtener.
     9.3) En este caso getattr(lst, func) regresa el método del objeto "lst" con el nombre almacenado en la variable "func"
-    9.4) La función map(func, iterable) aplica la función "func" a cada elemento del 
+    9.4) La función *map(func, iterable) aplica la función "func" a cada elemento del 
     iterable (en este caso es la lista "args") y devuelve un objeto iterable
     9.5) En este caso map(int, args) convierte cada elemento de la lista "args" en un número entero.
     9.6) La expresión *map(int, args) desempaqueta el objeto iterable resultante de la función map y 

@@ -15,3 +15,7 @@ for _ in range(N):
         print(args)
     else:
         print(lst)
+
+# Los parámetros deben ir de acuerdo a la funcion ejecutada
+# append recibe solo un parámetro
+# insert recibe 2
