@@ -37,12 +37,12 @@ for i in itertools.count(10, 2):
 
 # cycle
 colors = ['red', 'green', 'blue']
-counter = 10
+counter = 5
 for color in itertools.cycle(colors):
     counter -= 1
     if counter > 0:
         print(color)
-        break
+    break
 
 # repeat
 for i in itertools.repeat('hello', 3):
