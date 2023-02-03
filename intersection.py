@@ -20,8 +20,9 @@ Sample Output
 
 5
 '''
-e, *m = map(int, input().split())
-f, *n = map(int, input().split())
 
-inter = set(m) & (set(n))
+a, *n = map(int, input().split())
+z, *b = map(int, input().split())
+
+inter = set(n) & set(b)
 print(len(inter))
