@@ -21,4 +21,4 @@ m, f = int(input()), input().split()
 print(set(e).difference(set(f)))
 print(len(set(e).difference(set(f))))
 
-print(pow(9, 29) + pow(7, 27))
+
