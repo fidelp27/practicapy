@@ -39,7 +39,7 @@ n = int(input("cantidad de caracteres"))
 s = set(map(int, input("caracteres separados por espacios").split()))
 for _ in range(int(input("cantidad de comandos"))):
     try:
-        func, *args = input("comando + numero separado por espacios").split()
+        *args, func, q = input("comando + numero separado por espacios").rsplit(2)
         if func != "pop":
             getattr(s, func)(*list(map(int, args)))
         else:

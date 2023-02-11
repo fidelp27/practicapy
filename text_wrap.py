@@ -9,7 +9,7 @@ def run():
 
     def wrap(text, max_width):
         result = textwrap.fill(text, max_width)
-        print(result)
+        print(list(result))
     wrap(text, max_width)
 
 
