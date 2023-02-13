@@ -35,3 +35,4 @@ for _ in range(N):
     args = set(map(int, input().split()))
     getattr(a, func)(args)
 print(sum(a))
+print("conjunto resultante", a)
