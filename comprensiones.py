@@ -68,4 +68,5 @@ print(new_personas_greatertwenty)
 4) Dada una lista de números, crea una lista que contenga solo los números que son divisibles por el primer elemento de la lista.
 
 5) Dadas dos listas de números del mismo tamaño, crea una lista de tuplas donde cada tupla contiene un número de la primera lista y su correspondiente número de la segunda lista.
+5) Dadas dos listas de números del mismo tamaño, crea una lista de tuplas donde cada tupla contiene un número de la primera lista y su correspondiente número de la segunda lista.5) Dadas dos listas de números del mismo tamaño, crea una lista de tuplas donde cada tupla contiene un número de la primera lista y su correspondiente número de la segunda lista.
 '''
